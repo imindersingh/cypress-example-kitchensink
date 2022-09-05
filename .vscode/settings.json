@@ -1,6 +1,9 @@
-{
-  "standard.enable": false,
-  "eslint.enable": true,
-  "typescript.surveys.enabled": false,
-  "editor.formatOnSave": false
-}
+// {
+//   "standard.enable": false,
+//   "eslint.enable": true,
+//   "typescript.surveys.enabled": false,
+//   "editor.formatOnSave": false,
+//   "editor.defaultFormatter": "esbenp.prettier-vscode",
+//   "editor.formatOnType": true,
+//   "javascript.validate.enable": true
+// }
