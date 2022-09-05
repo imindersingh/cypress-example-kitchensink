@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-const cypress = require("cypress")
-
 describe('NETWORK REQUESTS, MOCKING, FIXTURES DATA', () => {
   beforeEach(() => {
     cy.fixture('example').then(function (data) {
@@ -36,7 +34,7 @@ describe('NETWORK REQUESTS, MOCKING, FIXTURES DATA', () => {
       fetch('https://api.spacexdata.com/v3/missions')
 				.then((res) => res.json)
         .then((data) => {
-          cypress.log('test has finished')
+          cy.log('test has finished')
         })
     })
   })
